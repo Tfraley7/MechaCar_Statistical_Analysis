@@ -6,7 +6,7 @@ Dec 20, 2022<br/>
 <p/>
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/car.jpeg">
+  <img width="311" height="162" src="Images/car.jpeg">
 </p>
 <br/>
 <br/>
@@ -17,12 +17,12 @@ The Pr(>|t|) points to the probability that the coefficients within the data fra
 
 <br/>
 <p align="center">
-  <img width="660" height="400" src="Images/MPGDF.png">
+  <img width="651" height="503" src="Images/MPGDF.png">
 </p>
 <br/>
 <br/>
 <p align="center">
-  <img width="660" height="400" src="Images/MPG_LM.png">
+  <img width="883" height="350" src="Images/MPG_LM.png">
 </p>
 <br/>
 
@@ -33,12 +33,12 @@ Once the dataframes were complete the variance in the "total_summary" data set. 
 
 <br/>
 <p align="center">
-  <img width="660" height="250" src="Images/totalsummary.png">
+  <img width="408" height="51" src="Images/totalsummary.jpeg">
 </p>
 <br/>
 <br/>
 <p align="center">
-  <img width="660" height="250" src="Images/lotsummary.png">
+  <img width="557" height="96" src="Images/lotsummary.png">
 </p>
 <br/>
 
@@ -48,7 +48,7 @@ Using R to perform t-tests. The suspsension coil data set could be further exami
 
 <br/>
 <p align="center">
-  <img width="660" height="700" src="Images/Ttest.png">
+  <img width="864" height="872" src="Images/Ttest.png">
 </p>
 <br/>
 
@@ -57,5 +57,6 @@ Using R to perform t-tests. The suspsension coil data set could be further exami
 For future research it would be interesting to compare MechaCar against their competition. Considering, suspension could affect vehicle safety. It would be interesting to compare vehicle suspension and vehicle safety against MechaCare and their competitors. The null hypothesiss would be that the competing manufacturers' suspension and safety ratings do not differ amongst class. However, the alternative hypothesis would be that the competing manufacturers' suspension and safety ratings do differ amongst class. This could be done through a two-way ANOVA test. To conduct this test one would need suspension standards and safety ratings (related to accidents caused by faulty suspension systems) among 10 manufacturers (MechaCar included). Competing manufactuers would be first selected by class and then vehicles would be selected by full line up based on vehicle type. To reach saturation data collected could be at 100 instances for each vehicle selected. 
 <br/>
 
-References:
+### References:
+
 Zach. (2021). How to Interpret Pr(>|t|) in Regression Model Output in R. Statology. https://www.statology.org/interpret-prt-regression-output-r/
