@@ -1,19 +1,45 @@
 # MechaCar_Statistical_Analysis
-
-
-
-
-
+<br/>
+<p align="center">Tyrone Fraley<br/>
+UC Berkley Extension<br/>
+Dec 20, 2022<br/>
+<p/>
+<br/>
+<p align="center">
+  <img width="460" height="200" src="Images/.jpeg">
+</p>
+<br/>
 
 ## Linear Regression to Predict MPG
 
 The Pr(>|t|) points to the probability that the coefficients within the data frame may contribute to a random variance amongst this model. Zach (2021) the Pr(>|t|) column exemplifies the p-value when analogous with the t value column. At this moment, one would want to understand if the coefficient's values in the Pr(>|t|) column are greater or less than 0.05. When analyzing the results spoiler_angle (Pr(>|t|) = 0.3069) and AWD (Pr(>|t|) 0.1852) were unlikely to be random.
-
 The p-value of this data sset is 5.35e-11 which means that the significance level is smaller than 0.05%. Knowing this one can validate that there is enough evidence to support that the slope of the linear model is not zero.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 To better understand if the linear model is predicting mpg of MechaCar prototypes effectively. It would be important to refer to the r-squared value. The r-squared value is 0.7149. This allows for the data set to be effectively predicted 71 out of 100 times. 
-
+<br/>
+<p align="center">
+  <img width="460" height="200" src="Images/MPGDF.jpeg">
+</p>
+<br/>
+<br/>
+<p align="center">
+  <img width="460" height="200" src="Images/MPG_LM.jpeg">
+</p>
+<br/>
+## Summary Statistics on Suspension Coils
+The next part of the analysis was to create visualizations for the trip analysis. To do so the MechaCar Suspension_Coil.csv data was imported into R. Within this data set there were weight capacities for many suspension coils. Each were tested to determine if the current process of manufacturing was consistent amongst production lots. However, suspension coils must not exceed 100 pounds per square inch. To understand this phenomena R was used to find the mean, median, variance, and standard deviation of the data into a data frame called "total_summary". In R this function was total_summary <- suspension %>% summarize(mean = mean(PSI), median = median(PSI), variance = var(PSI), standard_deviation = sd(PSI)). Next, the "lot_summary" dataframe was created to display the manufacturing lot, as well as the mean, median, variance, and standard deviation. To perform this calculation in R the following function was used: lot_summary <- suspension %>% group_by(Manufacturing_Lot) %>% summarize(mean = mean(PSI), median = median(PSI), variance = var(PSI), standard_deviation = sd(PSI)). 
+Once the dataframes were complete the variance in the "total_summary" data set. It resulted in 62.29356 PSI which meets specifications. However, this was not the result when looking at each individual lot in the "lot_summary" dataframe. Lot 1 had a variance of 0.9795918. Lot 2 had a variance of 7.4693878. Finally, Lot 3 had a variance of 170.2861224. The results show that Lots 1 and 2 met specifications and Lot 3 would have to be closer examined and compared to that of Lots 1 and 2 to better understand what phenomena is occuring to make Lot 3 not meet specifications.
+<br/>
+<p align="center">
+  <img width="460" height="200" src="Images/totalsummary.jpeg">
+</p>
+<br/>
+<br/>
+<p align="center">
+  <img width="460" height="200" src="Images/lotsummary.jpeg">
+</p>
+<br/>
 
 
 
