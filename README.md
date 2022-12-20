@@ -19,7 +19,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 To better understand if the linear model is predicting mpg of MechaCar prototypes effectively. It would be important to refer to the r-squared value. The r-squared value is 0.7149. This allows for the data set to be effectively predicted 71 out of 100 times. 
 <br/>
 <p align="center">
-  <img width="660" height="400" src="Images/MPGDF.peg">
+  <img width="660" height="400" src="Images/MPGDF.png">
 </p>
 <br/>
 <br/>
