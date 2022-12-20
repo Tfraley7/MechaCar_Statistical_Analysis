@@ -19,12 +19,12 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 To better understand if the linear model is predicting mpg of MechaCar prototypes effectively. It would be important to refer to the r-squared value. The r-squared value is 0.7149. This allows for the data set to be effectively predicted 71 out of 100 times. 
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/MPGDF.jpeg">
+  <img width="660" height="400" src="Images/MPGDF.peg">
 </p>
 <br/>
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/MPG_LM.png">
+  <img width="660" height="400" src="Images/MPG_LM.png">
 </p>
 <br/>
 ## Summary Statistics on Suspension Coils
@@ -44,7 +44,7 @@ Once the dataframes were complete the variance in the "total_summary" data set. 
 Using R to perform t-tests. The suspsension coil data set could be further examined to see if the lots differ from one another. In so much as, if they differ from the population mean (1500 psi). Passing the first t.test all lots were taken into consideration (t.test(suspension$PSI, mu = 1500, alternative = "two.sided")). This test yeilded a p-value of 0.06028 which could allow one to reject the idea that the lots differ from one another. When looking at each lot individually. T-tests for each lot would need to be performed (t.test(subset(suspension, Manufacturing_Lot == "Lot1")$PSI, mu = 1500, alternative = "two.sided")). Lot 1 yeilded a p-value of 1, Lot 2 yeilded a p-value of 0.6, and Lot 3 yeilded a p-value of 0.04. Lot 3 was the only lot that had a p-value less than 0.5. Despite this, each Lot yeilded a confidence interfal of 95 percent which means they are close to eachother in regards to being at 1500 psi. 
 <br/>
 <p align="center">
-  <img width="460" height="200" src="Images/Ttest.png">
+  <img width="860" height="600" src="Images/Ttest.png">
 </p>
 <br/>
 ## Study Design: MechaCar vs Competition
